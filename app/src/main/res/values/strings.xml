@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FileConverter</string>
+    <string name="app">File Converter</string>
+    <string name="welcome">  Welcome To  </string>
+    <string name="b">Continue</string>
+    <string name="b1">Select the file</string>
+    <string name="save1">Format_1</string>
+    <string name="save2">Format_2</string>
+    <string name="save3">Format_3</string>
+    <string name="help">HELP</string>
+    <string name="according">Convert The File According To:</string>
+    <string name="save_as">rename the file as..</string>
+    <string name="selection">Convert Your File Here..</string>
+    <string name="title_activity_continue_text">continueText</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

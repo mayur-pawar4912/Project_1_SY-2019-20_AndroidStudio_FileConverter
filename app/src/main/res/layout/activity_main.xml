@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE504"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="351dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="32dp"
+        android:paddingLeft="50sp"
+        android:paddingRight="50sp"
+        android:text="@string/welcome"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/app"
+        android:textColor="#1A04E6"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:height="50sp"
+        android:background="@android:color/holo_red_dark"
+        android:imeOptions="actionPrevious|flagNoExtractUi"
+        android:onClick="continueNext"
+        android:shadowColor="#FFFFFF"
+        android:text="@string/b"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="208dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/file_logo22" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
